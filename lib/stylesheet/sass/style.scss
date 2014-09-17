@@ -27,12 +27,13 @@ body{
 
 .master{
 	position: relative;
-    width: 100%;
-    min-height: 100%;
+	width: 100%;
+	min-height: 100%;
 }
 .conteudo{
 	padding:20px 0;
-	width:1024px;
+	max-width:1280px;
+	width:100%;
 	margin: 0 auto;
 	display: table;
 }
@@ -50,21 +51,32 @@ pre{
 	font-size:14px;
 	border: none !important;
 }
+a{
+	color: $corPadrao;
+	text-decoration:none;
+	padding: 2px;
+	&:hover{
+		text-decoration: underline;
+	}
+}
 
 ul li{
 	padding: 5px 5px;
-}
-
-a{
-	padding: 5px;
-	text-decoration: none;
-	color:#555;
-	&:hover{
-		background: clarear(#ccc, 10%);
-		border-radius: 5px;
-		color:black;
+	text-align: left;
+	a{
+		padding: 5px;
+		text-decoration: none;
+		color:#555;
+		
+		&:hover{
+			background: clarear(#ccc, 10%);
+			border-radius: 5px;
+			color:black;
+			text-decoration: none;
+		}
 	}
 }
+
 
 // titulos //
 $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
@@ -82,9 +94,9 @@ $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
 
 footer{
 	background-color:$corPadrao;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: #fff;
-    font-size: 13px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	font-size: 13px;
 }
