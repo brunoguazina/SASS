@@ -48,41 +48,42 @@ body{
 // start nav
 nav{
 	z-index:999999;
-}
-.voltar {
-	position: absolute;
-	left: 0px;
-	top: 50%;
-	height: 140px;
-	margin-top: -75px;
-	background-color: transparent;
-	&:hover{
-		background-color: $corClara;
-		transition: all .5s ease;
+
+	.voltar {
+		position: absolute;
+		left: 0px;
+		top: 50%;
+		height: 140px;
+		margin-top: -75px;
+		background-color: transparent;
+		&:hover{
+			background-color: $corClara;
+			transition: all .5s ease;
+		}
+		.arrow {
+			margin: 30px 5px 0 0;
+			border-color: transparent transparentize($corEscura, 0.9) transparent transparent;
+			border-width: 25px;
+			border-style: solid;
+		}
 	}
-	.arrow {
-		margin: 30px 5px 0 0;
-		border-color: transparent transparentize($corEscura, 0.9) transparent transparent;
-		border-width: 25px;
-		border-style: solid;
-	}
-}
-.avancar {
-	position: absolute;
-	right: 0px;
-	top: 50%;
-	height: 140px;
-	margin-top: -75px;
-	background-color: transparent;
-	&:hover{
-		background-color: $corClara;
-		transition: all .5s ease;
-	}
-	.arrow {
-		margin: 30px 0 0 5px;
-		border-color: transparent transparent  transparent transparentize($corEscura, 0.9);
-		border-width: 25px;
-		border-style: solid;
+	.avancar {
+		position: absolute;
+		right: 0px;
+		top: 50%;
+		height: 140px;
+		margin-top: -75px;
+		background-color: transparent;
+		&:hover{
+			background-color: $corClara;
+			transition: all .5s ease;
+		}
+		.arrow {
+			margin: 30px 0 0 5px;
+			border-color: transparent transparent  transparent transparentize($corEscura, 0.9);
+			border-width: 25px;
+			border-style: solid;
+		}
 	}
 }
 // end nav 
@@ -127,7 +128,7 @@ ul li{
 $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
 @each $titulo in $listaDeTitulos{
 	
-	$tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 5;
+	$tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 6;
 	#{$titulo}{
 		@include tipografia();
 		margin: 0;
