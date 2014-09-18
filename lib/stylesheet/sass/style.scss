@@ -49,7 +49,7 @@ body{
 nav{
 	z-index:999999;
 
-	.voltar {
+	&.voltar {
 		position: absolute;
 		left: 0px;
 		top: 50%;
@@ -67,7 +67,7 @@ nav{
 			border-style: solid;
 		}
 	}
-	.avancar {
+	&.avancar {
 		position: absolute;
 		right: 0px;
 		top: 50%;
@@ -107,10 +107,10 @@ a{
 }
 
 ul li{
-	padding: 5px 5px;
+	padding: 5px 0;
 	text-align: left;
 	a{
-		padding: 5px;
+		padding: 5px 0;
 		text-decoration: none;
 		color:#555;
 

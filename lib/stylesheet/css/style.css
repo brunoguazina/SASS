@@ -33,32 +33,32 @@ body {
 
 nav {
   z-index: 999999; }
-  nav .voltar {
+  nav.voltar {
     position: absolute;
     left: 0px;
     top: 50%;
     height: 140px;
     margin-top: -75px;
     background-color: transparent; }
-    nav .voltar:hover {
+    nav.voltar:hover {
       background-color: white;
       transition: all .5s ease; }
-    nav .voltar .arrow {
+    nav.voltar .arrow {
       margin: 30px 5px 0 0;
       border-color: transparent rgba(0, 0, 0, 0.1) transparent transparent;
       border-width: 25px;
       border-style: solid; }
-  nav .avancar {
+  nav.avancar {
     position: absolute;
     right: 0px;
     top: 50%;
     height: 140px;
     margin-top: -75px;
     background-color: transparent; }
-    nav .avancar:hover {
+    nav.avancar:hover {
       background-color: white;
       transition: all .5s ease; }
-    nav .avancar .arrow {
+    nav.avancar .arrow {
       margin: 30px 0 0 5px;
       border-color: transparent transparent transparent rgba(0, 0, 0, 0.1);
       border-width: 25px;
@@ -79,10 +79,10 @@ a {
     text-decoration: underline; }
 
 ul li {
-  padding: 5px 5px;
+  padding: 5px 0;
   text-align: left; }
   ul li a {
-    padding: 5px;
+    padding: 5px 0;
     text-decoration: none;
     color: #555; }
     ul li a:hover {
