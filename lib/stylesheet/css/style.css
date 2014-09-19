@@ -10,6 +10,14 @@ body {
   padding: 0;
   height: 100%; }
 
+::selection {
+  background: #cc6699;
+  color: #fff; }
+
+::-moz-selection {
+  background: #cc6699;
+  color: #fff; }
+
 .master {
   position: relative;
   width: 100%;

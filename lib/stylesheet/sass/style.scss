@@ -27,6 +27,14 @@ body{
 	height: 100%;
 }	
 
+::selection {
+	background: $corPadrao;
+	color: #fff;
+}
+::-moz-selection {
+	background: $corPadrao;
+	color: #fff;
+}
 .master{
 	position: relative;
 	width: 100%;
