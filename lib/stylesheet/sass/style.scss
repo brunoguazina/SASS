@@ -4,7 +4,7 @@
 $corEscura: #000;
 $corClara: #fff;
 $corPadrao: #cc6699;
-$tamanhoDaFontePadrao: 14px;
+$tamanhoDaFontePadrao: 13px;
 
 @mixin tipografia($cor: $corPadrao){
 	font-family: 'Raleway', sans-serif;
@@ -25,6 +25,7 @@ body{
 	margin:0;
 	padding:0;
 	height: 100%;
+	line-height: 1.4em;
 }	
 
 ::selection {
@@ -43,7 +44,8 @@ body{
 .conteudo{
 	padding:20px 0;
 	max-width:1280px;
-	width:100%;
+	width:80%;
+	min-width: 990px;
 	margin: 0 auto;
 	display: table;
 }
@@ -71,7 +73,7 @@ nav{
 		.arrow {
 			margin: 30px 5px 0 0;
 			border-color: transparent transparentize($corEscura, 0.9) transparent transparent;
-			border-width: 25px;
+			border-width: 18px;
 			border-style: solid;
 		}
 	}
@@ -89,7 +91,7 @@ nav{
 		.arrow {
 			margin: 30px 0 0 5px;
 			border-color: transparent transparent  transparent transparentize($corEscura, 0.9);
-			border-width: 25px;
+			border-width: 18px;
 			border-style: solid;
 		}
 	}
@@ -98,11 +100,12 @@ nav{
 
 
 p{
-	text-align: center;
+	text-align: justify;
 }
 
 pre{
-	font-size:14px;
+	font-size: 13px;
+	line-height: 1.3em;
 	border: none !important;
 }
 a{
@@ -114,9 +117,15 @@ a{
 	}
 }
 
-ul li{
-	padding: 5px 0;
+ul{
+	margin: 0;
+	padding: 50px 15px;
+	li{
+	padding: 0;
 	text-align: left;
+	ul{
+		padding: 5px 25px;
+	}
 	a{
 		padding: 5px 0;
 		text-decoration: none;
@@ -130,6 +139,7 @@ ul li{
 		}
 	}
 }
+}
 
 
 // titulos //
@@ -140,6 +150,7 @@ $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
 	#{$titulo}{
 		@include tipografia();
 		margin: 0;
+		padding: 20px 0;
 		text-transform: uppercase;
 		text-align: center;
 		font-size: $tamanhoDaFontePadrao;
@@ -153,4 +164,5 @@ footer{
 	width: 100%;
 	color: #fff;
 	font-size: 13px;
+
 }
