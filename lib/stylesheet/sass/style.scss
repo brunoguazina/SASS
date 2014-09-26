@@ -115,6 +115,9 @@ a{
 	&:hover{
 		text-decoration: underline;
 	}
+	&:visited{
+		color: $corPadrao;
+	}
 }
 
 ul{
@@ -130,7 +133,7 @@ ul{
 		padding: 5px 0;
 		text-decoration: none;
 		color:#555;
-		
+
 		&:hover{
 			background: clarear(#ccc, 10%);
 			border-radius: 5px;
@@ -165,5 +168,9 @@ footer{
 	width: 100%;
 	color: #fff;
 	font-size: 13px;
+
+	.conteudo{
+		padding: 0px;
+	}
 
 }

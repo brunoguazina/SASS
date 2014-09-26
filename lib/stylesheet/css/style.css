@@ -88,6 +88,8 @@ a {
   padding: 2px; }
   a:hover {
     text-decoration: underline; }
+  a:visited {
+    color: #cc6699; }
 
 ul {
   margin: 0;
@@ -174,3 +176,5 @@ footer {
   width: 100%;
   color: #fff;
   font-size: 13px; }
+  footer .conteudo {
+    padding: 0px; }
