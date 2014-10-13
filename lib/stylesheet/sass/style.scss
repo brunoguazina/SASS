@@ -25,7 +25,7 @@ body{
 	margin:0;
 	padding:0;
 	height: 100%;
-	line-height: 2em;
+	line-height: 1.4em;
 }	
 
 ::selection {
@@ -54,6 +54,7 @@ body{
 .CSS, .SCSS{
 	width:50%;
 }
+
 
 // start nav
 nav{
@@ -123,6 +124,7 @@ a{
 ul{
 	margin: 0;
 	padding: 25px 10px 50px 10px;
+	line-height: 2em;
 	li{
 	padding: 0;
 	text-align: left;
@@ -133,7 +135,6 @@ ul{
 		padding: 5px 0;
 		text-decoration: none;
 		color:#555;
-
 		&:hover{
 			background: clarear(#ccc, 10%);
 			border-radius: 5px;
