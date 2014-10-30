@@ -1,66 +1,103 @@
-<!DOCTYPE html>
-<html lang="pt_br">
+<!DOCTYPE HTML>
+<html>
 <head>
+	<meta charset="utf-8">
+	<title>jQuery One Page Scroll by Pete R. | The Pete Design</title>
+	<meta name="title" content="jQuery One Page Scroll by Pete R. | The Pete Design" />
+	<meta name="description" content="Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin" />
+	<link rel="image_src" href="/images/notify_better_image.png" />
 
-	<meta charset="utf-8" />
-	<meta name="format-detection" content="telephone=no">
-	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-	<link rel="stylesheet" href="lib/stylesheet/css/style.css">
+	<meta content="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" property="og:url" />
+	<meta content="http://www.thepetedesign.com/images/onepage_scroll_image.png" property="og:image" />
+	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
+	<meta name="author" content="Pete R.">
+	<link rel="canonical" href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="lib/js/jquery.onepage-scroll.js"></script>
 
-	<title>Pré processador - SASS</title>
+  <link href='lib/stylesheet/css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link href='lib/stylesheet/css/style.css' rel='stylesheet' type='text/css'>
 
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  
+  <style>
+    
+	</style>
+	<script>
+
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+		});
+		
+	</script>
 </head>
 <body>
+  <div class="wrapper">
+	  <div class="main">
+	    
+    <section class="page0">
+        <div class="page_container">
+          <figure class="logoSass">
+              <img src="img/sass-logo.png" alt="">
+              <caption>por: Bruno Guazina</caption>
+          </figure>
+        </div>
+    </section>
+        
+      <section class="page1">
+        <div class="page_container">
+            <h1>Introdução</h1>
+            <div class="conteudo">
+            
+            <p>Com a evolução da internet nos últimos anos, a complexidade das folhas de estilo devido as interfaces cada vez mais complexas, surgiu os pre-processadores para ajudar.</p>
+            
+            <p>Criado em 2016 por Hampton Catlin, o SASS é um pré processadores de CSS, que possui diversos recursos(<i>Mixins, Placeholders, Funções, Variáveis, Condicionais, Laços, etc</i>).<br>
+            Permitem escrever um código mais limpo e escalável, tornar o desenvolvimento de CSS mais ágil e dinâmico, facilitando o reuso e aumentando a produtividade.
+            
+            <br>
+            
+            Possui uma grande comunidade de desenvolvedres e empresas de tecnologia que tem trabalhado incessantemente para não so manter, mas continuar evoluindo. Você tambem vai encontrar diversos frameworks como: <a href="http://compass-style.org" target="_black"><strong>Compass</strong></a>, <a href="http://bourbon.io" target="_black"><strong>Bourbon</strong></a>, <a href="http://susy.oddbird.net" target="_blanck"><strong>Susy</strong></a> entre outros.</p>
 
-	<div class="master">
-		
-		<div class="conteudo">
-			<h1>Pré-Processador - Sass</h1>
-			<p>Uma breve introdução ao Sass, com diversos casos reais de como utilizar cada um dos itens listados a baixo!</p>
+            <p>Hoje em dia, caso não queira utilizar o terminal e não trabalhe com node.js ou Ruby por exemplo... você pode utilizar alguns aplicativos externo como este (<a href="http://koala-app.com" target="_black"><strong>Koala</strong></a>) que vão compilar esse codigo para CSS.</p>
+            
+            </div>
 
+  	    </div>
+      </section>
+	    
+	    <section class="page2">
+	      <div class="page_container">
+          
+	      </div>
+      </section>
+	    
+	    <section class="page3">
+	      <div class="page_container">
+          
+  	    </div>
+      </section>
 
+      <section class="page4">
+        <div class="page_container">
+          
+        </div>
+      </section>
 
-			<ul>
-				<li><a href="introducao.html">Introdução</a></li>
-				<li><a href="sintaxe.html"> Sintaxe</a></li>
-				<li><a href="seletores.html"> Seletores</a></li>
-				<li><a href="comentarios.html"> Comentários</a></li>
-				<li><a href="variaveis.html"> Variáveis</a></li>
-				<li><a href="interpolacao.html"> Interpolação</a></li>
-				<li><a href="operadores-matematicos.html"> Operadores Matemáticos</a></li>
-				<li><a href="operadores-de-comparacao.html"> Operadores de Comparação</a></li>
-				<li><a href="operadores-logicos.html"> Operadores Lógicos</a></li>
-				<li>
-					<a href="condicionais.html">Condicionais</a>
-					<ul>
-						<li><a href="condicionais-com-if.html">@if</a></li>
-						<li><a href="condicionais-com-else.html">@else</a></li>
-						<li><a href="condicionais-com-elseIf.html">@else if</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="lacos.html">Laços</a>
-					<ul>
-						<li><a href="lacos-com-each.html">@each</a></li>
-						<li><a href="lacos-com-for.html">@for</a></li>
-						<li><a href="lacos-com-while.html">@while</a></li>
-					</ul>
-				</li>
-				<li><a href="mixins.html">Mixin</a></li>
-				<li><a href="place-holder.html">Place holder</a></li>
-				<li><a href="funcoes.html">Funções</a></li>
-				<li><a href="funcoes-nativas.html">Funções Nativas</a></li>
+      <section class="page5">
+        <div class="page_container">
+          
+        </div>
+      </section>
 
-			</ul>
-		</div>	
-
-		<footer>
-			<div class="conteudo">
-				By Bruno Guazina - User Interface Designer
-			</div>
-		</footer>
-	</div>
-
-
+    
+    </div>
+  </div>
 </body>
 </html>
