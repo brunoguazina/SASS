@@ -1,22 +1,20 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>jQuery One Page Scroll by Pete R. | The Pete Design</title>
-	<meta name="title" content="jQuery One Page Scroll by Pete R. | The Pete Design" />
-	<meta name="description" content="Create an Apple-like one page scroller website (iPhone 5S website) with One Page Scroll plugin" />
-	<link rel="image_src" href="/images/notify_better_image.png" />
 
-	<meta content="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" property="og:url" />
-	<meta content="http://www.thepetedesign.com/images/onepage_scroll_image.png" property="og:image" />
-	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
-	<meta name="author" content="Pete R.">
-	<link rel="canonical" href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" />
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<title>Pré processador - SASS | Bruno Guazina</title>
+	<meta name="title" content="SASS - Pré-processador de CSS" />
+	<meta name="description" content="Esse conteúdo sobre SASS, é um pequeno guia para você que está iniciando no mundo dos pré-processadores de CSS." />
+
+	<meta content="http://www.brunoguazina.com/Sass" property="og:url" />
+	<meta content="http://www.brunoguazina.com/Sass/img/" property="og:image" />
+	<link rel="shortcut icon" id="favicon" href="favicon.ico"> 
+	<meta name="author" content="Bruno Guazina">
 	
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script type="text/javascript" src="lib/js/jquery.onepage-scroll.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 
   <link href='lib/stylesheet/css/onepage-scroll.css' rel='stylesheet' type='text/css'>
   <link href='lib/stylesheet/css/style.css' rel='stylesheet' type='text/css'>
@@ -26,8 +24,8 @@
   <style>
     
 	</style>
-	<script>
 
+	<script>
 	  $(document).ready(function(){
       $(".main").onepage_scroll({
         sectionContainer: "section",
@@ -35,46 +33,102 @@
         loop: true
       });
 		});
-		
 	</script>
+
 </head>
+
 <body>
   <div class="wrapper">
 	  <div class="main">
 	    
-    <section class="page0">
-        <div class="page_container">
-          <figure class="logoSass">
-              <img src="img/sass-logo.png" alt="">
-              <caption>por: Bruno Guazina</caption>
-          </figure>
-        </div>
-    </section>
+      <section class="page0">
+          <div class="page_container">
+            <figure class="logoSass">
+                <img src="img/sass-logo.png" alt="">
+                <caption>por: Bruno Guazina</caption>
+            </figure>
+          </div>
+      </section>
         
       <section class="page1">
         <div class="page_container">
             <h1>Introdução</h1>
-            <div class="conteudo">
-            
-            <p>Com a evolução da internet nos últimos anos, a complexidade das folhas de estilo devido as interfaces cada vez mais complexas, surgiu os pre-processadores para ajudar.</p>
-            
-            <p>Criado em 2016 por Hampton Catlin, o SASS é um pré processadores de CSS, que possui diversos recursos(<i>Mixins, Placeholders, Funções, Variáveis, Condicionais, Laços, etc</i>).<br>
-            Permitem escrever um código mais limpo e escalável, tornar o desenvolvimento de CSS mais ágil e dinâmico, facilitando o reuso e aumentando a produtividade.
-            
-            <br>
-            
-            Possui uma grande comunidade de desenvolvedres e empresas de tecnologia que tem trabalhado incessantemente para não so manter, mas continuar evoluindo. Você tambem vai encontrar diversos frameworks como: <a href="http://compass-style.org" target="_black"><strong>Compass</strong></a>, <a href="http://bourbon.io" target="_black"><strong>Bourbon</strong></a>, <a href="http://susy.oddbird.net" target="_blanck"><strong>Susy</strong></a> entre outros.</p>
 
-            <p>Hoje em dia, caso não queira utilizar o terminal e não trabalhe com node.js ou Ruby por exemplo... você pode utilizar alguns aplicativos externo como este (<a href="http://koala-app.com" target="_black"><strong>Koala</strong></a>) que vão compilar esse codigo para CSS.</p>
+            <div class="conteudo">
+              <p>Com a evolução da internet nos últimos anos, a complexidade das folhas de estilo devido as interfaces cada vez mais complexas, surgiu os pre-processadores para ajudar.</p>
             
+              <p>Criado em 2016 por Hampton Catlin, o SASS é um pré processadores de CSS, que possui diversos recursos(<i>Mixins, Placeholders, Funções, Variáveis, Condicionais, Laços, etc</i>).</p>
+            
+              <p>Permitem escrever um código mais limpo e escalável, tornar o desenvolvimento de CSS mais ágil e dinâmico, facilitando o reuso e aumentando a produtividade.</p>
+            
+              <p>Possui uma grande comunidade de desenvolvedres e empresas de tecnologia que tem trabalhado incessantemente para não so manter, mas continuar evoluindo. Você tambem vai encontrar diversos frameworks como: <a href="http://compass-style.org" target="_black"><strong>Compass</strong></a>, <a href="http://bourbon.io" target="_black"><strong>Bourbon</strong></a>, <a href="http://susy.oddbird.net" target="_blanck"><strong>Susy</strong></a> entre outros.</p>
+
+              <p>Hoje em dia, caso não queira utilizar o terminal e não trabalhe com node.js ou Ruby por exemplo... você pode utilizar alguns aplicativos externo como este (<a href="http://koala-app.com" target="_black"><strong>Koala</strong></a>) que vão compilar esse codigo para CSS.</p>
             </div>
 
   	    </div>
       </section>
 	    
 	    <section class="page2">
-	      <div class="page_container">
-          
+        <div class="page_container">
+          <h1>Sintaxe</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+          <div class="conteudo">
+
+<div class="left SCSS">
+<span>SCSS</span>
+<pre class="prettyprint">
+$corPadrao: #cc6699;
+$tamanhoDaFontePadrao: 14px;
+
+@mixin tipografia($cor: $corPadrao){
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: $cor;
+}
+
+$listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
+@each $titulo in $listaDeTitulos{
+  
+  $tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 5;
+  #{$titulo}{
+    @include tipografia();
+    text-transform: uppercase;
+    text-align: center;
+    font-size: $tamanhoDaFontePadrao;
+  }
+}
+</pre>
+</div>
+
+<div class="right CSS">
+<span>SASS</span>
+<pre class="prettyprint">
+$corPadrao: #cc6699
+$tamanhoDaFontePadrao: 14px
+
+@mixin tipografia($cor: $corPadrao)
+  font-family: 'Raleway', sans-serif
+  font-weight: 400
+  color: $cor
+
+$listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1'
+@each $titulo in $listaDeTitulos
+  
+  $tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 5
+  #{$titulo}
+    @include tipografia()
+    text-transform: uppercase
+    text-align: center
+    font-size: $tamanhoDaFontePadrao
+</pre>  
+</div>
+
+</div>
+
 	      </div>
       </section>
 	    

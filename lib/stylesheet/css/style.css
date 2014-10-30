@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,800);
 html {
-  height: 100%;
-}
+  height: 100%; }
 
 body {
   background: #E2E4E7;
@@ -11,56 +10,152 @@ body {
   position: relative;
   margin: 0;
   height: 100%;
-  -webkit-font-smoothing: antialiased;
-}
+  -webkit-font-smoothing: antialiased; }
+
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 19px; }
+
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px; }
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 31px; }
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 37px; }
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 43px; }
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 49px; }
+
+section.page0 {
+  background: url("../../../img/background-1.jpg") top; }
+
+section.page1 {
+  background: url("../../../img/background-2.jpg") top; }
+
+section.page2 {
+  background: url("../../../img/background-2.jpg") top; }
+
+section.page3 {
+  background: url("../../../img/background-1.jpg") top; }
+
+section.page4 {
+  background: url("../../../img/background-2.jpg") top; }
+
+section.page5 {
+  background: url("../../../img/background-1.jpg") top; }
+
+section.page6 {
+  background: url("../../../img/background-2.jpg") top; }
+
+section.page7 {
+  background: url("../../../img/background-1.jpg") top; }
+
+section.page8 {
+  background: url("../../../img/background-2.jpg") top; }
+
+section.page9 {
+  background: url("../../../img/background-1.jpg") top; }
+
+p {
+  text-align: justify; }
+
+a {
+  color: #cc6699;
+  text-decoration: none;
+  padding: 2px; }
+  a:hover {
+    text-decoration: underline; }
+  a:visited {
+    color: #cc6699; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.CSS, .SCSS {
+  width: 50%; }
+
+pre {
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.3em;
+  border: none !important; }
 
 .wrapper {
   height: 100% !important;
   height: 100%;
   margin: 0 auto;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .main section .page_container {
   position: relative;
   top: 25%;
   margin: 0 auto 0;
   max-width: 950px;
-  z-index: 3;
-}
+  z-index: 3; }
 
 .main section {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
-.main section.page0 {
-  background: url("../../../img/background.jpg") center;
-}
 .main section.page0 .logoSass {
   text-align: center;
-  width: 450px;
-  margin: 0 auto;
-}
-.main section.page0 .logoSass img {
-  width: 450px;
-}
-
-.main section.page1 {
-  background: url("../../../img/background.jpg") center;
-}
-
-.main section.page2 {
-  background: #555557;
-}
-
-.main section.page3 {
-  background: #e6d9c8;
-}
+  width: 60%;
+  margin: 0 auto; }
+  .main section.page0 .logoSass img {
+    display: block;
+    width: 100%; }
 
 body.disabled-onepage-scroll .onepage-wrapper section {
   min-height: 100%;
-  height: auto;
-}
+  height: auto; }
 
 body.disabled-onepage-scroll .main section .page_container,
 body.disabled-onepage-scroll .main section.page3 .page_container {
@@ -68,19 +163,10 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   margin-top: 150px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body.disabled-onepage-scroll section .page_container h2,
-body.disabled-onepage-scroll section .page_container .credit,
-body.disabled-onepage-scroll section .page_container .btns {
-  text-align: center;
-  width: 100%;
-}
+  box-sizing: border-box; }
 
 body.disabled-onepage-scroll .main section.page3 .page_container {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  right: 0;
-}
+  right: 0; }
