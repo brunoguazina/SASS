@@ -72,11 +72,8 @@ h1 {
   text-align: center;
   font-size: 49px; }
 
-section.page0 {
-  background: url("../../../img/background-1.jpg") top; }
-
 section.page1 {
-  background: url("../../../img/background-2.jpg") top; }
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page2 {
   background: url("../../../img/background-2.jpg") top; }
@@ -101,6 +98,15 @@ section.page8 {
 
 section.page9 {
   background: url("../../../img/background-1.jpg") top; }
+
+section.page10 {
+  background: url("../../../img/background-2.jpg") top; }
+
+section.page11 {
+  background: url("../../../img/background-1.jpg") top; }
+
+section.page12 {
+  background: url("../../../img/background-2.jpg") top; }
 
 p {
   text-align: justify; }
@@ -137,7 +143,7 @@ pre {
 
 .main section .page_container {
   position: relative;
-  top: 25%;
+  top: 15%;
   margin: 0 auto 0;
   max-width: 950px;
   z-index: 3; }
@@ -145,11 +151,11 @@ pre {
 .main section {
   overflow: hidden; }
 
-.main section.page0 .logoSass {
+.main section.page1 .logoSass {
   text-align: center;
   width: 60%;
   margin: 0 auto; }
-  .main section.page0 .logoSass img {
+  .main section.page1 .logoSass img {
     display: block;
     width: 100%; }
 

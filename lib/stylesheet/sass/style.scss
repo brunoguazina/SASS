@@ -1,28 +1,14 @@
 
 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,800);
+@import '_fontes';
+@import '_variaveis';
+@import '_mixins';
 
-
-$corEscura: #000;
-$corClara: #fff;
-$corPadrao: #cc6699;
-$tamanhoDaFontePadrao: 13px;
-
-
-@mixin tipografia($cor: $corPadrao){
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    color: $cor;
-}
-
-@function clarear($cor, $porcentagem){
-    $cor: lighten($cor, $porcentagem);
-    @return $cor;
-}
 
 html {
       height: 100%;
 }
+
 
 body {
     background: #E2E4E7;
@@ -53,7 +39,7 @@ $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
 
 
 // background
-$paginas: page0 01, page1 02, page2 02, page3 01, page4 02, page5 01, page6 02, page7 01, page8 02, page9 01;
+$paginas: page1 01, page2 02, page3 01, page4 02, page5 01, page6 02, page7 01, page8 02, page9 01, page10 02, page11 01, page12 02;
 @each $listaDePaginas in $paginas{
 
     $pagina: nth($listaDePaginas, 1);
@@ -109,7 +95,7 @@ pre{
     
 .main section .page_container {
     position: relative;
-    top: 25%;
+    top: 15%;
     margin: 0 auto 0;
     max-width: 950px;
     z-index: 3;
@@ -121,7 +107,7 @@ pre{
 
 
 // pagina inicial
-.main section.page0 {
+.main section.page1 {
 
     .logoSass{
         text-align: center;
@@ -136,16 +122,16 @@ pre{
 }
 
 
-// introdução
-.main section.page1 {
-}
-
-// pagina
+// introducao
 .main section.page2 {
 }
 
 // pagina
 .main section.page3 {
+}
+
+// pagina
+.main section.page4 {
 }
 
 
