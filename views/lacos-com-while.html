@@ -1,51 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt_br">
-<head>
+<h1>Laços | @While </h1>
 
-	<meta charset="utf-8" />
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="lib/stylesheet/css/style.css">
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
-
-    <title>SASS - @while</title>
-
-</head>
-<body>
-
-
-	<!--
-	Start Nav
-	-->
-	<nav class="voltar">
-		<a href="lacos-com-for.html">
-			<div class="arrow"> </div>
-		</a>
-	</nav>
-	
-	<nav class="avancar">
-		<a href="mixins.html">
-			<div class="arrow"> </div>
-		</a>
-	</nav>
-	<!--
-	End Nav
-	-->
-
-
-<div class="master">
-
-<div class="conteudo">
-	<h1>Laços - @while</h1>
-
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat.</p>
-	
-</div>
-
-<div class="conteudo">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.</p>
 
 <div class="left SCSS">
 <span>SCSS</span>
@@ -73,38 +31,4 @@ $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
 </pre>
 </div>
 
-<div class="right CSS">
-<span>CSS</span>
-<pre class="prettyprint">
-$corPadrao: #cc6699
-$tamanhoDaFontePadrao: 14px
 
-@mixin tipografia($cor: $corPadrao)
-	font-family: 'Raleway', sans-serif
-	font-weight: 400
-	color: $cor
-
-$listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1'
-@each $titulo in $listaDeTitulos
-	
-	$tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 5
-	#{$titulo}
-		@include tipografia()
-		text-transform: uppercase
-		text-align: center
-		font-size: $tamanhoDaFontePadrao
-</pre>	
-</div>
-
-</div>
-
-
-<footer>
-	<div class="conteudo">
-		By Bruno Guazina - User Interface Designer
-	</div>
-</footer>
-</div>
-
-</body>
-</html>

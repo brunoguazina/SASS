@@ -1,24 +1,11 @@
-
-
 @import '_fontes';
 @import '_variaveis';
 @import '_mixins';
 
 
-html {
-      height: 100%;
-}
-
-
 body {
-    background: #E2E4E7;
-    padding: 0;
-    text-align: center;
     font-family: 'Raleway', sans-serif;
-    position: relative;
-    margin: 0;
-    height: 100%;
-    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
 }
 
 
@@ -28,7 +15,7 @@ $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
   
     $tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 6;
     #{$titulo} {
-        @include tipografia();
+        @include tipografiaTitulo();
         margin: 0;
         padding: 20px 0;
         text-transform: uppercase;
@@ -53,6 +40,7 @@ $paginas: page1 01, page2 02, page3 01, page4 02, page5 01, page6 02, page7 01, 
 
 p{
     text-align: justify;
+    font-size: 18px;
 }
 
 
@@ -81,7 +69,7 @@ a{
 
 pre{
     text-align:left;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.3em;
     border: none !important;
 }
@@ -97,7 +85,7 @@ pre{
     position: relative;
     top: 15%;
     margin: 0 auto 0;
-    max-width: 950px;
+    max-width: 1200px;
     z-index: 3;
 }
 
@@ -111,8 +99,8 @@ pre{
 
     .logoSass{
         text-align: center;
-        width: 60%;
-        margin: 0 auto;
+        width: 40%;
+        margin: 65px auto 0 auto;
 
         img{
             display: block;

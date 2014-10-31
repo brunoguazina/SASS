@@ -1,19 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,800);
-html {
-  height: 100%; }
-
+@import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
 body {
-  background: #E2E4E7;
-  padding: 0;
-  text-align: center;
   font-family: 'Raleway', sans-serif;
-  position: relative;
-  margin: 0;
-  height: 100%;
-  -webkit-font-smoothing: antialiased; }
+  font-size: 14px; }
 
 h6 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Chelsea Market', cursive;
   font-weight: 400;
   color: #cc6699;
   margin: 0;
@@ -23,7 +15,7 @@ h6 {
   font-size: 19px; }
 
 h5 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Chelsea Market', cursive;
   font-weight: 400;
   color: #cc6699;
   margin: 0;
@@ -33,7 +25,7 @@ h5 {
   font-size: 25px; }
 
 h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Chelsea Market', cursive;
   font-weight: 400;
   color: #cc6699;
   margin: 0;
@@ -43,7 +35,7 @@ h4 {
   font-size: 31px; }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Chelsea Market', cursive;
   font-weight: 400;
   color: #cc6699;
   margin: 0;
@@ -53,7 +45,7 @@ h3 {
   font-size: 37px; }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Chelsea Market', cursive;
   font-weight: 400;
   color: #cc6699;
   margin: 0;
@@ -63,7 +55,7 @@ h2 {
   font-size: 43px; }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Chelsea Market', cursive;
   font-weight: 400;
   color: #cc6699;
   margin: 0;
@@ -109,7 +101,8 @@ section.page12 {
   background: url("../../../img/background-2.jpg") top; }
 
 p {
-  text-align: justify; }
+  text-align: justify;
+  font-size: 18px; }
 
 a {
   color: #cc6699;
@@ -131,7 +124,7 @@ a {
 
 pre {
   text-align: left;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.3em;
   border: none !important; }
 
@@ -145,7 +138,7 @@ pre {
   position: relative;
   top: 15%;
   margin: 0 auto 0;
-  max-width: 950px;
+  max-width: 1200px;
   z-index: 3; }
 
 .main section {
@@ -153,8 +146,8 @@ pre {
 
 .main section.page1 .logoSass {
   text-align: center;
-  width: 60%;
-  margin: 0 auto; }
+  width: 40%;
+  margin: 65px auto 0 auto; }
   .main section.page1 .logoSass img {
     display: block;
     width: 100%; }

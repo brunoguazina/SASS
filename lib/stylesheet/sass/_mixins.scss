@@ -1,5 +1,5 @@
-@mixin tipografia($cor: $corPadrao){
-    font-family: 'Raleway', sans-serif;
+@mixin tipografiaTitulo($cor: $corPadrao){
+    font-family: 'Chelsea Market', cursive;
     font-weight: 400;
     color: $cor;
 }
