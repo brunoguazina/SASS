@@ -26,21 +26,32 @@ $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
 
 
 // background
-$paginas: page1 01, page2 02, page3 01, page4 02, page5 01, page6 02, page7 01, page8 02, page9 01, page10 02, page11 01, page12 02;
+$paginas: page1 01, page2 02, page3 01, page4 02, page5 01, page6 02, page7 01, page8 02, page9 01, page10 02, page11 01, page12 02, page13 01, page14 02,
+page15 01, page16 02, page17 01, page18 02, page19 01, page20 02, page21 01, page21 02;
 @each $listaDePaginas in $paginas{
 
     $pagina: nth($listaDePaginas, 1);
     $numeracao: nth($listaDePaginas, 2);            
 
     section.#{$pagina} {
-        background: url('../../../img/background-#{$numeracao}.jpg') top;
+        background: url('../../../img/background-1.jpg') top;
     }
+}
+
+
+::selection {
+    background: clarear($corPadrao, 5%);
+    color: #fff;
+}
+::-moz-selection {
+    background: clarear($corPadrao, 5%);
+    color: #fff;
 }
 
 
 p{
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -69,7 +80,7 @@ a{
 
 pre{
     text-align:left;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.3em;
     border: none !important;
 }
@@ -83,9 +94,9 @@ pre{
     
 .main section .page_container {
     position: relative;
-    top: 15%;
+    top: 10%;
     margin: 0 auto 0;
-    max-width: 1200px;
+    max-width: 1024px;
     z-index: 3;
 }
 
