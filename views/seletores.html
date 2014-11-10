@@ -1,37 +1,30 @@
 <h1>Seletores</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.</p>
+<p>Um importande aspecto do <strong>CSS</strong> é a utilização dos seletores para selecionar qualquer elemento do seu <strong>HTML</strong>. Com a utilização do <strong>SASS</strong>, você poderá utilizar os seletores aninhados, facilitando e deixando seu código mais simples e escalável.</p>
 
-<div class="left SCSS">
+
 <pre class="prettyprint">
-$corPadrao: #cc6699;
-$tamanhoDaFontePadrao: 14px;
-
-@mixin tipografia($cor: $corPadrao){
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	color: $cor;
-}
-
-$listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
-@each $titulo in $listaDeTitulos{
-	
-	$tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 5;
-	#{$titulo}{
-		@include tipografia();
-		text-transform: uppercase;
-		text-align: center;
-		font-size: $tamanhoDaFontePadrao;
-	}
+section {
+  width: 100%;
+  height: auto;
+  
+  form {
+	width: 450px;
+    margin: 0 auto;
+    
+    input {
+      margin: 2px;
+      height: 30px;
+      width: 100%;
+      display: block;
+    }        
+  }  
 }
 </pre>
 
+
+<div class="botao">
+	<a href="#" target="_blanck">Live Code</a>
 </div>
-
-
-
 
 

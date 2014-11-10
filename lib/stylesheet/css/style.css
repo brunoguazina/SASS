@@ -2,8 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 h6 {
   font-family: 'Chelsea Market', cursive;
@@ -13,8 +12,7 @@ h6 {
   padding: 20px 0;
   text-transform: uppercase;
   text-align: center;
-  font-size: 19px;
-}
+  font-size: 19px; }
 
 h5 {
   font-family: 'Chelsea Market', cursive;
@@ -24,8 +22,7 @@ h5 {
   padding: 20px 0;
   text-transform: uppercase;
   text-align: center;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 h4 {
   font-family: 'Chelsea Market', cursive;
@@ -35,8 +32,7 @@ h4 {
   padding: 20px 0;
   text-transform: uppercase;
   text-align: center;
-  font-size: 31px;
-}
+  font-size: 31px; }
 
 h3 {
   font-family: 'Chelsea Market', cursive;
@@ -46,8 +42,7 @@ h3 {
   padding: 20px 0;
   text-transform: uppercase;
   text-align: center;
-  font-size: 37px;
-}
+  font-size: 37px; }
 
 h2 {
   font-family: 'Chelsea Market', cursive;
@@ -57,8 +52,7 @@ h2 {
   padding: 20px 0;
   text-transform: uppercase;
   text-align: center;
-  font-size: 43px;
-}
+  font-size: 43px; }
 
 h1 {
   font-family: 'Chelsea Market', cursive;
@@ -68,176 +62,131 @@ h1 {
   padding: 20px 0;
   text-transform: uppercase;
   text-align: center;
-  font-size: 49px;
-}
+  font-size: 49px; }
 
 section.page1 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page2 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page3 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page4 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page5 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page6 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page7 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page8 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page9 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page10 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page11 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page12 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page13 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page14 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page15 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page16 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page17 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page18 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page19 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page20 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 section.page21 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-1.jpg") top; }
 
 section.page21 {
-  background: url("../../../img/background-1.jpg") top;
-}
+  background: url("../../../img/background-2.jpg") top; }
 
 ::selection {
   background: #d279a6;
-  color: #fff;
-}
+  color: #fff; }
 
 ::-moz-selection {
   background: #d279a6;
-  color: #fff;
-}
+  color: #fff; }
 
 p {
   text-align: justify;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 a {
   color: #cc6699;
   text-decoration: none;
-  padding: 2px;
-}
-a:hover {
-  text-decoration: underline;
-}
-a:visited {
-  color: #cc6699;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.CSS, .SCSS {
-  width: 50%;
-}
+  padding: 2px; }
+  a:hover {
+    text-decoration: underline; }
+  a:visited {
+    color: #cc6699; }
 
 pre {
-  text-align: left;
-  font-size: 14px;
-  line-height: 1.3em;
-  border: none !important;
-}
+  background: #f8f8f8;
+  border: 1px solid #ebebeb !important;
+  margin-top: 25px;
+  padding: 10px !important;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
 
 .wrapper {
   height: 100% !important;
   height: 100%;
   margin: 0 auto;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .main section .page_container {
   position: relative;
   top: 10%;
   margin: 0 auto 0;
   max-width: 1024px;
-  z-index: 3;
-}
+  z-index: 3; }
 
 .main section {
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 section.page1 .logoSass {
   text-align: center;
   width: 40%;
-  margin: 65px auto 0 auto;
-}
-section.page1 .logoSass img {
-  display: block;
-  width: 100%;
-}
+  margin: 65px auto 0 auto; }
+  section.page1 .logoSass img {
+    display: block;
+    width: 100%; }
 
 body.disabled-onepage-scroll .onepage-wrapper section {
   min-height: 100%;
-  height: auto;
-}
+  height: auto; }
 
 body.disabled-onepage-scroll .main section .page_container,
 body.disabled-onepage-scroll .main section.page3 .page_container {
@@ -245,12 +194,22 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
   margin-top: 150px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body.disabled-onepage-scroll .main section.page3 .page_container {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  right: 0;
-}
+  right: 0; }
+
+.botao {
+  text-align: center;
+  margin-top: 55px; }
+  .botao a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background: #cc6699;
+    padding: 15px 45px; }
+    .botao a:hover {
+      background: #bf4080; }

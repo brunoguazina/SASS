@@ -8,3 +8,8 @@
     $cor: lighten($cor, $porcentagem);
     @return $cor;
 }
+
+@function escurecer($cor, $porcentagem){
+    $cor: darken($cor, $porcentagem);
+    @return $cor;
+}

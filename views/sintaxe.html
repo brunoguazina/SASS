@@ -5,7 +5,6 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat.</p>
 
-<div class="left SCSS">
 <pre class="prettyprint">
 $corPadrao: #cc6699;
 $tamanhoDaFontePadrao: 14px;
@@ -28,30 +27,7 @@ $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
 	}
 }
 </pre>
-</div>
 
-<div class="right CSS">
-<span>SASS</span>
-<pre class="prettyprint">
-$corPadrao: #cc6699
-$tamanhoDaFontePadrao: 14px
-
-@mixin tipografia($cor: $corPadrao)
-	font-family: 'Raleway', sans-serif
-	font-weight: 400
-	color: $cor
-
-$listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1'
-@each $titulo in $listaDeTitulos
-	
-	$tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 5
-	#{$titulo}
-		@include tipografia()
-		text-transform: uppercase
-		text-align: center
-		font-size: $tamanhoDaFontePadrao
-</pre>	
-</div>
 
 
 

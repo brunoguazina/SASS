@@ -33,7 +33,7 @@ page19 01, page20 02, page21 01, page21 02;
     $numeracao: nth($listaDePaginas, 2);            
 
     section.#{$pagina} {
-        background: url('../../../img/background-1.jpg') top;
+        background: url('../../../img/background-#{$numeracao}.jpg') top;
     }
 }
 
@@ -64,18 +64,16 @@ a {
     }
 }
 
-.left { float: left; }
-.right { float: right; }
-
-.CSS, .SCSS {
-    width:50%;
-}
 
 pre {
-    text-align:left;
-    font-size: 14px;
-    line-height: 1.3em;
-    border: none !important;
+    background: rgb(248, 248, 248);
+    border: 1px solid rgb(235, 235, 235) !important;
+    margin-top: 25px;
+    padding: 10px !important;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    
 }
     
 .wrapper {
@@ -145,6 +143,21 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
     right: 0;
 }
 
+.botao {
+    text-align: center;
+    margin-top: 55px;
+    a {
+        font-size: 16px;
+        text-decoration: none;
+        color:$corClara;
+        background: $corPadrao;
+        padding: 15px 45px;
+        
+        &:hover {
+            background: escurecer($corPadrao, 10%);
+        }
 
+    }
+}
 
 
