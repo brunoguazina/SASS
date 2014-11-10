@@ -8,25 +8,25 @@ consequat.</p>
 <div class="left SCSS">
 <pre class="prettyprint">
 $corPadrao: #cc6699;
+$corTipografiaPadrao: #000000;
+$tipografiaPrincipal: 'Robote', sans-serif;
 $tamanhoDaFontePadrao: 14px;
+$marginPadrao: 10px;
+$esquerda: left;
+$direita: right;
+$tamanhoDaFonte: (28pt / 2);
+$corTexto: red + blue;
+$corFooter: #234 * 3;
 
-@mixin tipografia($cor: $corPadrao){
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	color: $cor;
-}
+section {
+	display: table;
 
-$listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
-@each $titulo in $listaDeTitulos{
-	
-	$tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 5;
-	#{$titulo}{
-		@include tipografia();
-		text-transform: uppercase;
-		text-align: center;
-		font-size: $tamanhoDaFontePadrao;
+	.conteudo.#{$esquerda} {
+		float: $esquerda;
+		margin: $marginPadrao;
 	}
 }
+
 </pre>
 </div>
 
