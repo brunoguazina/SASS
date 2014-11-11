@@ -1,30 +1,35 @@
 <h1>Seletores</h1>
 
-<p>Um importande aspecto do <strong>CSS</strong> é a utilização dos seletores para selecionar qualquer elemento do seu <strong>HTML</strong>. Com a utilização do <strong>SASS</strong>, você poderá utilizar os seletores aninhados, sem a a necessidade de repetir seletor para cada elemento que você quer formatar, facilitando e deixando seu código mais simples e escalável. Lembre-se sempre... Boas práticas de CSS devem ser respeitasdas sempre! </p>
+<p>Um importande aspecto do CSS é a utilização dos seletores para selecionar qualquer elemento do seu HTML. Com a utilização do SASS, você poderá utilizar os seletores aninhados, sem a a necessidade de repetir seletor para cada elemento que você quer formatar, facilitando e deixando seu código mais simples e escalável. Lembre-se sempre... Boas práticas de CSS devem ser respeitasdas! </p>
 
 
 <pre class="prettyprint">
-section {
+.contato {
   width: 100%;
   height: auto;
   
-  form {
-	width: 450px;
+  .formularioDeContato {
+    width: 100%;
+    max-width: 450px;
     margin: 0 auto;
     
-    input {
+    input[type="text"] {
       margin: 2px;
       height: 30px;
       width: 100%;
       display: block;
-    }        
+    }
+    input[type="submit"] {
+      background: #CCCCCC;
+      border: none;
+      padding: 10px 25px;
+    }
   }  
 }
 </pre>
 
-
 <div class="botao">
-	<a href="#" target="_blanck">Live Code</a>
+	<a href="#" target="_blanck">Live Code <i class="icon-newtab"> </i></a>
 </div>
 
 

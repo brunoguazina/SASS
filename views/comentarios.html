@@ -1,33 +1,36 @@
 <h1>Comentários</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.</p>
+<p>Como no CSS, para você deixar um comentário em seu código basta utilizar <strong>/* <i>seu comentario</i> */</strong>, no SASS alem dessa sintaxe ja conhecida nas folhas de estilho, você também podera utilizar <strong>//<i>seu comentario</i></strong>, a diferenca entre um e outro é que a comentário somente com <strong>//</strong> nao é compilado para o CSS, permanecendo apenas no SASS. </p>
 
 <pre class="prettyprint">
 // Inicio formulario de contato
-section {
+.contato {
   width: 100%;
   height: auto;
   
-  form {
-    width: 450px; /* largura fixa */
-    margin: 0 auto; /* altura flexivel */
+  .formularioDeContato {
+    width: 100%; 
+    max-width: 450px; /* largura maxima */
+    margin: 0 auto; 
     
-    input {
+    input[type="text"] {
       margin: 2px;
       height: 30px;
       width: 100%;
       display: block;
-    }        
+    }
+    input[type="submit"] { /* formatacao do botao de enviar formulario */
+      background: #CC6699;
+      border: none;
+      padding: 10px 25px;
+      color: #FFFFFF;
+    }
   }  
 }
 // Fim formulario de contato
 </pre>
 
-
 <div class="botao">
-	<a href="#" target="_blanck">Live Code</a>
+	<a href="#" target="_blanck">Live Code <i class="icon-newtab"> </i></a>
 </div>
 

@@ -1,35 +1,43 @@
 <h1>Interpolação</h1>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat.</p>
+<p>Ao declarar variável entre <strong>#{</strong>$nomeDaVariavel<strong>}</strong> é gerado um resultado onde as variáveis são substituidas pelos valores presentes na memória. Você pode utilizar de diversas maneiras, no valor de uma propriedade, em seletores e até na url de uma background-image, como poderá ver nos proximos sliders. </p>
 
-<div class="left SCSS">
 <pre class="prettyprint">
-$corPadrao: #cc6699;
-$corTipografiaPadrao: #000000;
-$tipografiaPrincipal: 'Robote', sans-serif;
-$tamanhoDaFontePadrao: 14px;
-$marginPadrao: 10px;
-$esquerda: left;
-$direita: right;
-$tamanhoDaFonte: (28pt / 2);
-$corTexto: red + blue;
-$corFooter: #234 * 3;
+// inicio variáveis
+$corPrincipal: #CC6699;
+$corTextoBotao: #FFFFFF;
+// fim variaveis
 
-section {
-	display: table;
-
-	.conteudo.#{$esquerda} {
-		float: $esquerda;
-		margin: $marginPadrao;
-	}
+.contato {
+  background: #{$backgroundContato};
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  
+  .formularioDeContato {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    
+    input[type="text"] {
+      margin: 2px;
+      height: 30px;
+      width: 100%;
+      display: block;
+    }
+    input[type="submit"] {
+      background: #{$corPrincipal};
+      border: none;
+      padding: 10px 25px;
+      color: $corTextoBotao;
+    }
+  }  
 }
-
 </pre>
-</div>
 
+<div class="botao">
+	<a href="#" target="_blanck">Live Code <i class="icon-newtab"> </i></a>
+</div>
 
 
 

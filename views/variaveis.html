@@ -1,33 +1,41 @@
 <h1>Variáveis</h1>
 
-<p>Variáveis vão permitem que seu codigo seja fique muito mais legivel e facil de dar manutenção.</p>
+<p>Um dos recursos mais conhecidos dos pré-processadores, você pode declarar uma variavel utilizando <strong>$</strong> e . </p>
 
 <div class="left SCSS">
 <pre class="prettyprint">
-$corPadrao: #cc6699;
-$tipografiaPrincipal: Arial;
-$tamanhoDaFontePadrao: 14px;
-$marginPadrao: 10px;
+// inicio variáveis
+$corPrincipal: #CC6699;
+$corSecundaria: #CCCCCC;
+$corTextoBotao: #FFFFFF;
+// fim variaveis
 
-@mixin tipografia($cor: $corPadrao){
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-	color: $cor;
-}
-
-$listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
-@each $titulo in $listaDeTitulos{
-	
-	$tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 5;
-	#{$titulo}{
-		@include tipografia();
-		text-transform: uppercase;
-		text-align: center;
-		font-size: $tamanhoDaFontePadrao;
-	}
+.contato {
+  width: 100%;
+  height: auto;
+  
+  .formularioDeContato {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    
+    input[type="text"] {
+      margin: 2px;
+      height: 30px;
+      width: 100%;
+      display: block;
+    }
+    input[type="submit"] {
+      background: $corPrincipal;
+      border: none;
+      padding: 10px 25px;
+      color: $corTextoBotao;
+    }
+  }  
 }
 </pre>
 </div>
 
-
-
+<div class="botao">
+	<a href="#" target="_blanck">Live Code <i class="icon-newtab"> </i></a>
+</div>

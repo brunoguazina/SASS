@@ -27,13 +27,13 @@ $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
 $paginas: page1 01, page2 02, page3 01, page4 02, page5 01, page6 02, page7 01, page8 02, page9 01,
 page10 02, page11 01, page12 02, page13 01, page14 02, page15 01, page16 02, page17 01, page18 02,
 page19 01, page20 02, page21 01, page21 02;
-@each $listaDePaginas in $paginas{
+@each $listaDePaginas in $paginas {
 
     $pagina: nth($listaDePaginas, 1);
     $numeracao: nth($listaDePaginas, 2);            
 
     section.#{$pagina} {
-        background: url('../../../img/background-#{$numeracao}.jpg') top;
+        background: url('../../../img/background-1.jpg') top;
     }
 }
 
@@ -56,14 +56,13 @@ a {
     text-decoration:none;
     padding: 2px;
 
-    &:hover{
+    &:hover {
         text-decoration: underline;
     }
-    &:visited{
+    &:visited {
         color: $corPadrao;
     }
 }
-
 
 pre {
     background: rgb(248, 248, 248);
@@ -73,6 +72,7 @@ pre {
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
+    min-height: 375px !important;
 }
     
 .wrapper {
@@ -99,8 +99,8 @@ section.page1 {
 
     .logoSass {
         text-align: center;
-        width: 40%;
-        margin: 65px auto 0 auto;
+        width: 50%;
+        margin: 15% auto 0 auto;
 
         img {
             display: block;
@@ -155,7 +155,9 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
         &:hover {
             background: escurecer($corPadrao, 10%);
         }
-
+        i {
+            font-size: 18px;
+        }
     }
 }
 
