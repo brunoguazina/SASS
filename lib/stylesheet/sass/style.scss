@@ -5,18 +5,18 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 // titulos 
 $listaDeTitulos: 'h6', 'h5','h4', 'h3', 'h2','h1';
 @each $titulo in $listaDeTitulos {
   
-    $tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 6;
+    $tamanhoDaFontePadrao: $tamanhoDaFontePadrao + 5;
     #{$titulo} {
         @include tipografiaTitulo();
         margin: 0;
-        padding: 20px 0;
+        padding: 15px 0;
         text-transform: uppercase;
         text-align: center;
         font-size: $tamanhoDaFontePadrao;
@@ -48,7 +48,7 @@ page19 01, page20 02, page21 01, page21 02;
 
 p {
     text-align: justify;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 a {
@@ -72,7 +72,7 @@ pre {
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
-    min-height: 375px !important;
+    min-height: 350px !important;
 }
     
 .wrapper {
@@ -84,7 +84,7 @@ pre {
     
 .main section .page_container {
     position: relative;
-    top: 10%;
+    top: 5%;
     margin: 0 auto 0;
     max-width: 1024px;
     z-index: 3;
@@ -146,7 +146,7 @@ body.disabled-onepage-scroll .main section.page3 .page_container {
     text-align: center;
     margin-top: 55px;
     a {
-        font-size: 16px;
+        font-size: 15px;
         text-decoration: none;
         color:$corClara;
         background: $corPadrao;
