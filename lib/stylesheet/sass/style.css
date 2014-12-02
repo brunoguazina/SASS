@@ -1,0 +1,291 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Chelsea+Market);
+@font-face {
+  font-family: 'icomoon';
+  src: url('../../fonte/icomoon.eot');
+  src: url('../../fonte/icomoon.eot') format('embedded-opentype'), url('../../fonte/icomoon.woff') format('woff'), url('../../fonte/icomoon.ttf') format('truetype'), url('../../fonte/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 17, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/_fontes */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 31, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/_fontes */
+.icon-newtab:before {
+  content: "\e601"; }
+
+/* line 6, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px; }
+
+/* line 16, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+h6 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px; }
+
+/* line 16, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+h5 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px; }
+
+/* line 16, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+h4 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px; }
+
+/* line 16, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+h3 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px; }
+
+/* line 16, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+h2 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 42px; }
+
+/* line 16, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 400;
+  color: #cc6699;
+  margin: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 48px; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page1 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page2 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page3 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page4 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page5 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page6 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page7 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page8 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page9 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page10 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page11 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page12 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page13 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page14 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page15 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page16 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page17 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page18 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page19 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page20 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page21 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 35, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page21 {
+  background: url('../../../img/background-1.jpg') top; }
+
+/* line 40, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+::selection {
+  background: #d279a6;
+  color: #fff; }
+
+/* line 44, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+::-moz-selection {
+  background: #d279a6;
+  color: #fff; }
+
+/* line 49, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+p {
+  text-align: justify;
+  font-size: 15px; }
+
+/* line 54, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+a {
+  color: #cc6699;
+  text-decoration: none;
+  padding: 2px; }
+  /* line 59, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+  a:hover {
+    text-decoration: underline; }
+  /* line 62, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+  a:visited {
+    color: #cc6699; }
+
+/* line 67, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+pre {
+  background: #f8f8f8;
+  border: 1px solid #ebebeb !important;
+  margin-top: 25px;
+  padding: 10px !important;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  min-height: 350px !important; }
+
+/* line 78, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+.wrapper {
+  height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+/* line 85, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+.main section .page_container {
+  position: relative;
+  top: 5%;
+  margin: 0 auto 0;
+  max-width: 1024px;
+  z-index: 3; }
+
+/* line 93, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+.main section {
+  overflow: hidden; }
+
+/* line 100, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+section.page1 .logoSass {
+  text-align: center;
+  width: 50%;
+  margin: 15% auto 0 auto; }
+  /* line 105, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+  section.page1 .logoSass img {
+    display: block;
+    width: 100%; }
+
+/* line 124, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+body.disabled-onepage-scroll .onepage-wrapper section {
+  min-height: 100%;
+  height: auto; }
+
+/* line 130, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container {
+  padding: 20px;
+  margin-top: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 138, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+body.disabled-onepage-scroll .main section.page3 .page_container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0; }
+
+/* line 145, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+.botao {
+  text-align: center;
+  margin-top: 55px; }
+  /* line 148, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+  .botao a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background: #cc6699;
+    padding: 15px 45px; }
+    /* line 155, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+    .botao a:hover {
+      background: #bf407f; }
+    /* line 158, D:/BrunoGuazina/ProjetosGit/Sass/lib/stylesheet/sass/style.scss */
+    .botao a i {
+      font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */
